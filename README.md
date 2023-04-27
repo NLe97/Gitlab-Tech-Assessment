@@ -20,6 +20,7 @@ Next, write a second script that:
   ● On its first run stores the MD5 checksum into the /var/log/current_users file.
 
   ● On subsequent runs, if the MD5 checksum changes, the script should add a line in the /var/
+  
 log/user_changes file with the message, DATE TIME changes occurred, replacing DATE and TIME with appropriate values, and replaces the old MD5 checksum in /var/log/ current_users file with the new MD5 checksum.
 
 Finally, write a crontab entry that runs these scripts hourly.
@@ -33,7 +34,7 @@ Keep the following information about the environment in mind:
   ● Application data is stored in a relational database.
 
   ● All components (web application, web server, database) are running on a single Linux box with
-8GB RAM, 2 CPU cores, and SSD storage with ample free space.
+    8GB RAM, 2 CPU cores, and SSD storage with ample free space.
 
   ● You have root access to this Linux box.
 
