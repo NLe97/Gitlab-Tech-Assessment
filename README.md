@@ -3,7 +3,9 @@
 Important: While working on this assessment, you can consult external sources, but you must cite them. We are looking for answers in your own words.
 
 1. Write a Ruby or Bash script that will print usernames of all users on a Linux system together with their home directories. Here's some example output:
+
 gitlab:/home/gitlab
+
 nobody:/nonexistent
 .
 .
