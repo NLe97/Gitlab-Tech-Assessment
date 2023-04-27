@@ -5,6 +5,7 @@ Important: While working on this assessment, you can consult external sources, b
 1. Write a Ruby or Bash script that will print usernames of all users on a Linux system together with their home directories. Here's some example output:
 
 gitlab:/home/gitlab
+
 nobody:/nonexistent
 
 .
