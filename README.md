@@ -19,9 +19,7 @@ Next, write a second script that:
 
   * On its first run stores the MD5 checksum into the /var/log/current_users file.
 
-  * On subsequent runs, if the MD5 checksum changes, the script should add a line in the /var/
-  
-log/user_changes file with the message, DATE TIME changes occurred, replacing DATE and TIME with appropriate values, and replaces the old MD5 checksum in /var/log/ current_users file with the new MD5 checksum.
+  * On subsequent runs, if the MD5 checksum changes, the script should add a line in the /var/log/user_changes file with the message, DATE TIME changes occurred, replacing DATE and TIME with appropriate values, and replaces the old MD5 checksum in /var/log/ current_users file with the new MD5 checksum.
 
 Finally, write a crontab entry that runs these scripts hourly.
 Provide both scripts and the crontab entry for the answer to be complete.
