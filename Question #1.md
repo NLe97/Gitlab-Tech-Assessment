@@ -9,7 +9,8 @@ nobody:/nonexistent
 .
 
 Each line is a concatenation of a username, the colon character (:), and the home directory path for that username. Your script should output such a line for each user on the system.
-Next, write a second script that:
+
+#Next, write a second script that:
 
   ● Takes the full output of your first script and converts it to an MD5 hash.
 
