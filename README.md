@@ -41,7 +41,8 @@ Keep the following information about the environment in mind:
 We are interested in learning about your experience with modern web applications, and your ability to reason about system design and architectural trade-offs. There are no right and wrong answers to this question. Feel free to write as much or as little as you feel is necessary.
 
 3. Study the Git commit graph shown below. What sequence of Git commands could have resulted in this commit graph?
-![Alt text] (./img/GitGraph.png)
+
+![GitGraph](Question 3 Graph.png)
 
 4. GitLab has hired you to write a Git tutorial for beginners on: Using Git to implement a new feature/change without affecting the main branch In your own words, write a tutorial/blog explaining things in a beginner-friendly
 way. Make sure to address both the "why" and "how" for each Git command you use. Assume the audience are readers of a well-known blog.
