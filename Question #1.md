@@ -58,3 +58,8 @@ Run the following command to check the status of our crontab service before we r
 Run the following command to open the crontab file so that we can add the job to make it run every hour:
 `crontab -e`
 
+Proceed to press `CTRL O` to edit the crontab file and add the following code:
+```
+0 * * * * /Deskstop/userscript.sh && /Desktop/secondscript.sh
+```
+
