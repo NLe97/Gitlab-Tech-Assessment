@@ -56,10 +56,17 @@ Merging feature-branch and main branch
 ```
 git checkout feature-branch
 git merge main
-#Conflicts may arise here when trying to merge and so you can try to resolve via checking 
+#Conflicts may arise here when trying to merge and so you can try to resolve via checking the repo files via and IDE such as VSCode or via the rebasing if the commits from each branch are not aligned in terms of time.
 git add .
 git commit -m "feature-branch: resolved conflicts, merge with main branch"
 git push -u origin feature-branch
 git merge main
 ```
-
+Fourth Commit
+```
+#Going back to the main branch
+git checkout main
+#Changes are added to stagging and with the feature-branch content that was previously merged after the third commit
+git add .git commit -m "Main Branch Fourth Commit"
+git push -u origin main
+```
