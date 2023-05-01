@@ -22,6 +22,15 @@ Causes of Slowness Based on Information Given:
 
 How I would trouble shoot:
 
-1. I would start out by trying to replicate teh issue on my end by loading the web application on my local machine. If the the behavior is expected as reported by the user, this would indicate that the error is a global issue experienced by all users to this web app. If the issue is not reproducible on my end it would indicate that the issue might be on the client side and this would require further partnering with the user to troubleshoot. If the issue is an Global issue I would proceed internally via the following steps. 
+1. I would start out by trying to replicate the issue on my end by loading the web application on my local machine. If the the behavior is expected as reported by the user, this would indicate that the error is a global issue experienced by all users to this web app. If the issue is not reproducible on my end it would indicate that the issue might be on the client side and this would require further partnering with the user to troubleshoot. If the issue is an Global issue I would proceed internally via the following steps. 
 2. Furthermore given that I have root access to the Linux box, I can try to log into the linux server and try to see how long it take to log me into or if logging into the server is stalled. Any signs of stalling would potentially point to high workload being passed on the server.
-3. Going back to the low ram specs, I would check the linux box to make sure that there is sufficient ram for the web app. I can do this by running the htop command in the SSH terminal. This would allow me to view the number of proccessed running and to see if any are putting a strain on the storage. If some processes are seen to be putting a strain on the system I can restart the linux box
+3. Going back to the low ram specs, I would check the linux box to make sure that there is sufficient ram for the web app. I can do this by running the htop command in the SSH terminal. This would allow me to view the number of proccessed running and to see if any are putting a strain on the storage. If I notice that certain processes are causing problems for the system, I can safely restart the Linux machine without disrupting any important traffic, as long as the system can restart smoothly. I am can also partner with members of the DevOps or teams in charge of infrasture to possibly increase strained resources and this can be brought about via and JIRA submission to the respective team. 
+4. First, I would check if the memory usage and system load are not too high. Then, I would move on to checking the connection on the database by pinging it and observing how long it takes to get a response. This would give me an indication if there are any issues with the database connection.
+5. If everything seems fine with the database connection, my next step would be to look at the application logs using the logging tools for the MVC web framework we're using. This would give me a clear idea of any errors that might be happening and where they could be originating from.
+
+
+
+
+
+
+ 
