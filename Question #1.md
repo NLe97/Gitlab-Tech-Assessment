@@ -51,8 +51,10 @@ Provide both scripts and the crontab entry for the answer to be complete.
 
 ## Starting the Cronjob Service:
 `sudo systemctl start cron`
+
 Run the following command to check the status of our crontab service before we run the command to start the cron:
 `sudo systemctl status cron`
+
 Run the following command to open the crontab file so that we can add the job to make it run every hour:
 `crontab -e`
 
