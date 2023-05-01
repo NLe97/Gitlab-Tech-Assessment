@@ -63,7 +63,8 @@ the format for the crontab file to schedule the time is as follows:
 
 Source: https://tecadmin.net/crontab-in-linux-with-20-examples-of-cron-schedule/#:~:text=Linux%20Crontab%20Syntax,31)%2C%20and%20so%20on.
 
-* <Minute> <Hour> <Day_of_the_Month> <Month_of_the_Year> <Day_of_the_Week> <command> 
+* < Minute > < Hour > < Day_of_the_Month > < Month_of_the_Year > < Day_of_the_Week > < command > 
+
 ```
 0 * * * * /Deskstop/userscript.sh && /Desktop/secondscript.sh
 ```
