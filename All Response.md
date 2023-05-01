@@ -226,7 +226,7 @@ If the team considers merging the changes to the main branch, we can create a me
 
 # 5. What is a technical book/blog you read recently that you enjoyed? Please include a brief review of what you especially liked or didn’t like about it.
 
-## Article to Review: https://www.dice.com/career-advice/will-a.i.-doom-human-programmers
+> Article to Review: https://www.dice.com/career-advice/will-a.i.-doom-human-programmers
 
 # Answer:
 With the rise of ChatGPT the popular AI chatbot that could essentially do the impossible, I can see that there is essentially a lot of doom and gloom as to how this will apply to the future jobs of Software Engineering. The article titled " Will A.I. Doom Human Programmer" by David Bolton seem to show us a more balanced view on the matter as there are discussion of what the AI chatbot can do and also the things that takes a human touch to get done. 
