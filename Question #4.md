@@ -4,4 +4,6 @@ Make sure to address both the "why" and "how" for each Git command you use. Assu
 
 # Answer
 
-**<u>Using Git to implement a new feature/change without affecting the mainbranch</u>**
+# Topic: Using Git to implement a new feature/change without affecting the main branch 
+
+
