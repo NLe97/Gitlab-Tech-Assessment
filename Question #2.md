@@ -14,11 +14,11 @@ We are interested in learning about your experience with modern web applications
 # Answer
 
 Causes of Slowness Based on Information Given:
- * Network error experienced by the Relational Database.
- * The architecture of the database is not meeting the standards of the MVC framework model of the web app by poor design.
- * The web app is running on only two cores and 8 gb of rams which could be too low to handle the high series of request made to the database, ultimately the memory ultility is causing response from the web app to be too slow.
- * There are only two core specified for the web app which limits the ammount of threads as, requests coming through are only limited to two threads to handle.
- * Requests are failing are failing to go through with 500 error and this could build up and stop the app to stop responding to furthere requests.
+ * The Relational Database might be experiencing network issues.
+ * The architecture of the database is not meeting the standards of the MVC framework model of the web app; by poor design.
+ * The web app is running on only two cores and 8 gb of rams; which could be too low to handle the high series of request made to the database, ultimately the memory utility is causing response from the web app to be too slow.
+ * There are only two core specified for the web app which limits the amount of threads as requests coming through are only limited to two threads to handle.
+ * Requests are failing to go through with 500 status error and this could build up and stop the app from responding to further requests.
 
 How I would trouble shoot:
 
