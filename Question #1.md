@@ -25,14 +25,17 @@ getent passwd | cut -d ':' -f 1,6 > users.txt
 ```
 #!/usr/bin/bash
 
+# check if the file /var/log/current_users.md5 exists, if it does not exist then we would convert the output of users.txt to md5 checksum of the file "users.txt" to the file /var/log/current_users.md5   
 if [ ! -f /var/log/current_users.md5 ]; then
     md5sum users.txt > /var/log/current_users.md5
     exit 0
 fi
 
+# if the md5 file exist checks to see if the md5 checksum of "users.txt" is the same as the one in /var/log/current_users.md5, if matches the script exits
 md5sum -c /var/log/current_users.md5 > /dev/null 2>&1
 if [ $? -eq 0 ]; then
     exit 0
+# if the md5 checksum of "users.txt" does not match then we print the Date and Time that the changes oocurred in a new file /var/log/user_changes.log
 else
     echo "$(date +%Y-%m-%d\ %H:%M:%S) changes occurred" >> /var/log/user_changes.log
     md5sum users.txt > /var/log/current_users.md5
