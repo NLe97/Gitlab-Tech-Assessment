@@ -179,7 +179,7 @@ git push -u origin main
 Make sure to address both the "why" and "how" for each Git command you use. Assume the audience are readers of a well-known blog.
 
 # Answer: 
-## Source for Response: https://www.atlassian.com/git/glossary
+> Source for Response: https://www.atlassian.com/git/glossary
 
 # Topic: Using Git to implement a new feature/change without affecting the main branch 
 
