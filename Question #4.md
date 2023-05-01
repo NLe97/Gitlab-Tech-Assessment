@@ -13,6 +13,7 @@ Make sure to address both the "why" and "how" for each Git command you use. Assu
 :ok_hand: Now let jump into how to use Git given what we know! 
 
 # Step 1: Make a brand new branch for our changes:
+* This work flow seen here is in assumption that we are working off of a remote repository on services such as Github or Gitlab.
 * We need to first make a branch where our changes will occur and the command to do some is seen below:
 ```
 git checkout -b feature-branch
@@ -35,4 +36,13 @@ git commit -m "Added a New Feature"
 The commit command is usually followed by a message that we input in a string in order to clarify or remind others of what we are commiting here.
 
 # Step 4: Push our new feature
-* The following is in assumption that we are working off of remote repository and thus we have to push our committed changed to the remote repo.
+* At this step we need to push our commited changed to our remote repository.
+```
+git push origin feature-branch
+```
+The push command pushes the changes to the 'feature-branch' on the remote repository
+
+# Step 5: Considering Merging :monocle_face:
+After the changes have been pushed to the remote "feature-branch" which is separate from the main. We can go into discussion with the team to determine whether to merge the to the main branch or not. 
+
+If the team considers merging the changes to the main branch, we can create a merge request to the main branch.
