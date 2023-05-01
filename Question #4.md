@@ -17,3 +17,6 @@ Make sure to address both the "why" and "how" for each Git command you use. Assu
 ```
 git checkout -b feature-branch
 ```
+I have created a new branch called "feeature-branch" where I essentially checked out so now any changes or commits made will go on this branch instead of the main branch
+
+
