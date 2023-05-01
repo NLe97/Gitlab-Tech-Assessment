@@ -13,7 +13,7 @@ We are interested in learning about your experience with modern web applications
 
 # Answer
 
-- Causes of Slowness Based on Information Given:
+Causes of Slowness Based on Information Given:
  * Network error experienced by the Relational Database.
  * The architecture of the database is not meeting the standards of the MVC framework model of the web app by poor design.
  * The web app is running on only two cores and 8 gb of rams which could be too low to handle the high series of request made to the database, ultimately the memory ultility is causing response from the web app to be too slow.
