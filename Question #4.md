@@ -43,6 +43,6 @@ git push origin feature-branch
 The push command pushes the changes to the 'feature-branch' on the remote repository
 
 # Step 5: Considering Merging :monocle_face:
-After the changes have been pushed to the remote "feature-branch" which is separate from the main. We can go into discussion with the team to determine whether to merge the to the main branch or not. 
+After the changes have been pushed to the remote "feature-branch". We can go into discussion with the team to determine whether to merge the to the main branch or not. 
 
-If the team considers merging the changes to the main branch, we can create a merge request to the main branch.
+If the team considers merging the changes to the main branch, we can create a merge request and interact via the ui on whatever service the Remote Repo are hosted on whether that be Github or Gitlab
