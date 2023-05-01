@@ -6,4 +6,8 @@ Make sure to address both the "why" and "how" for each Git command you use. Assu
 
 # Topic: Using Git to implement a new feature/change without affecting the main branch 
 
+:wave: Hello there and welcome to my tutorial on how to use Git to implement a new feature/change without affecting the main branch. 
 
+* Before we jump into how to use Git we need to understand why it's important to keep the main branch of our code stable. The main branch is the production stage of your code and is already deployed to your users. Any changes made can cause errors or cause potential instability for your users, making their experience worse. Thus we have to maitntain the stability of the main branch, and changes can be make on a separate branch.
+
+:ok_hand: Now let jump into how to use Git given what we know! 
