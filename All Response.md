@@ -14,7 +14,7 @@ Each line is a concatenation of a username, the colon character (:), and the hom
 getent passwd | cut -d ':' -f 1,6 > users.txt
 ```
 
-# Next, write a second script that:
+## Next, write a second script that:
 
   * Takes the full output of your first script and converts it to an MD5 hash.
 
@@ -84,7 +84,7 @@ Keep the following information about the environment in mind:
 
 We are interested in learning about your experience with modern web applications, and your ability to reason about system design and architectural trade-offs. There are no right and wrong answers to this question. Feel free to write as much or as little as you feel is necessary.
 
-# Answer
+## Answer
 
 Causes of Slowness Based on Information Given:
  * The Relational Database might be experiencing network issues.
@@ -105,7 +105,7 @@ How I would trouble shoot:
 
 ![GitGraph!](https://raw.githubusercontent.com/NLe97/Gitlab-Tech-Assessment/main/Question%203%20Graph.png)
 
-# Answer
+## Answer
 
 We can see that initially the graph has two branches: one for the main branch and the other for the Feature Branch:
 
@@ -178,7 +178,7 @@ git push -u origin main
 
 Make sure to address both the "why" and "how" for each Git command you use. Assume the audience are readers of a well-known blog.
 
-# Answer: 
+## Answer: 
 > Source for Response: https://www.atlassian.com/git/glossary
 
 # Topic: Using Git to implement a new feature/change without affecting the main branch 
@@ -228,7 +228,7 @@ If the team considers merging the changes to the main branch, we can create a me
 
 > Article to Review: https://www.dice.com/career-advice/will-a.i.-doom-human-programmers
 
-# Answer:
+## Answer:
 With the rise of ChatGPT the popular AI chatbot that could essentially do the impossible, I can see that there is essentially a lot of doom and gloom as to how this will apply to the future jobs of Software Engineering. The article titled " Will A.I. Doom Human Programmer" by David Bolton seem to show us a more balanced view on the matter as there are discussion of what the AI chatbot can do and also the things that takes a human touch to get done. 
 
 I particularly liked the balanced views set in the article by David Bolton as he explains his own experience with working with Mircrosoft's experimental A.I. Intellicode and how it assisted him with coding by saving time via setting up boilerplate code; which he could work off of. Furthermore, the con presented with this next point is that A.I. can still create buggy code and this is to be taken as a cautionary insight for people solely relying on A.I. generated codes. The reason being AI chat bots such as ChatGPT can reiterate information even if they are false and thus we have to always make sure to check the output.
