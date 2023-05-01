@@ -17,6 +17,49 @@ git init
 ```
 
 First Commit Command Sequence:
+```
+#This adds files to the first commit of the Git Repo:
+git add .
 
+#Commits new files from stagging to the main branch with a message describing the commit:
+git commit -m "Main: Initial implementation"
 
+#This extra step is to set up an account and to add repository to Gitlab:
+git remote add origin https://gitlab.com/<username>/gitlab.git
+git push -u origin main: Push
+```
+Second Commit Command Sequence:
+```
+git add .
+git commit -m "Main: second commit"
+git push -u origin main
+```
+feature-branch:
+```
+git checkout -b feature-branch
+git pull origin main
+
+#Add new features
+git add .
+git commit -m "Feature-branch: Initial commit of first feature branch"
+git push -u origin feature-branch
+```
+Third Commit Command Sequence:
+```
+git checkout main
+#adding changes files and commiting them on main branch
+git add .
+git commit -m "Main: third commit changes made"
+git push -u origin main
+```
+Merging feature-branch and main branch
+```
+git checkout feature-branch
+git merge main
+#Conflicts may arise here when trying to merge and so you can try to resolve via checking 
+git add .
+git commit -m "feature-branch: resolved conflicts, merge with main branch"
+git push -u origin feature-branch
+git merge main
+```
 
