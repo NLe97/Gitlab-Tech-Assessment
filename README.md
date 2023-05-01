@@ -2,7 +2,7 @@
 
 Important: While working on this assessment, you can consult external sources, but you must cite them. We are looking for answers in your own words.
 
-# 1. Write a Ruby or Bash script that will print usernames of all users on a Linux system together with their home directories. Here's some example output:
+## 1. Write a Ruby or Bash script that will print usernames of all users on a Linux system together with their home directories. Here's some example output:
 
 gitlab:/home/gitlab
 
@@ -24,7 +24,7 @@ Next, write a second script that:
 Finally, write a crontab entry that runs these scripts hourly.
 Provide both scripts and the crontab entry for the answer to be complete.
 
-# 2. A user is complaining that it's taking a long time to load a page on our web application. In your own words, write down and discuss the possible cause(s) of the slowness. Also, describe how you would begin to troubleshoot this issue.
+## 2. A user is complaining that it's taking a long time to load a page on our web application. In your own words, write down and discuss the possible cause(s) of the slowness. Also, describe how you would begin to troubleshoot this issue.
 Keep the following information about the environment in mind:
 
   * The web application is written in a modern MVC web framework.
@@ -38,12 +38,12 @@ Keep the following information about the environment in mind:
 
 We are interested in learning about your experience with modern web applications, and your ability to reason about system design and architectural trade-offs. There are no right and wrong answers to this question. Feel free to write as much or as little as you feel is necessary.
 
-# 3. Study the Git commit graph shown below. What sequence of Git commands could have resulted in this commit graph?
+## 3. Study the Git commit graph shown below. What sequence of Git commands could have resulted in this commit graph?
 
 ![GitGraph!](https://raw.githubusercontent.com/NLe97/Gitlab-Tech-Assessment/main/Question%203%20Graph.png)
 
-# 4. GitLab has hired you to write a Git tutorial for beginners on: Using Git to implement a new feature/change without affecting the main branch. In your own words, write a tutorial/blog explaining things in a beginner-friendly way. 
+## 4. GitLab has hired you to write a Git tutorial for beginners on: Using Git to implement a new feature/change without affecting the main branch. In your own words, write a tutorial/blog explaining things in a beginner-friendly way. 
 
 Make sure to address both the "why" and "how" for each Git command you use. Assume the audience are readers of a well-known blog.
 
-# 5. What is a technical book/blog you read recently that you enjoyed? Please include a brief review of what you especially liked or didn’t like about it.
+## 5. What is a technical book/blog you read recently that you enjoyed? Please include a brief review of what you especially liked or didn’t like about it.
